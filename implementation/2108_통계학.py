@@ -5,10 +5,10 @@ count = [0] * 8001
 numbers = list()
 
 for _ in range(N):
-  inp = int(input())
-  total += inp
-  count[inp + 4000] += 1
-  numbers.append(inp)
+    inp = int(input())
+    total += inp
+    count[inp + 4000] += 1
+    numbers.append(inp)
 
 numbers.sort()
 print(round(total / N))

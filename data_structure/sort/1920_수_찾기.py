@@ -8,4 +8,4 @@ M = int(input().rstrip())
 targets = list(map(int, input().rstrip().split(" ")))
 
 for target in targets:
-  print(1 if target in nums else 0)
+    print(1 if target in nums else 0)
